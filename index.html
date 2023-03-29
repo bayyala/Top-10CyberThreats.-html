@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=01">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the header */
+header {
+  background-color:grey;
+  padding: 0%;
+  text-align: center;
+  font-size: 35px;
+  color: whitesmoke;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:lightgray;
+  height: 300px; 
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 30%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body style="background-color: aquamarine;">
+<h2 > <p align="Center"> <img src= "Cyber-security-banner.jpg" "height="300" width="1150"</p></h2>
+<header>
+  <h2 style="color:Tomato;"><font size="6"><u>What is CyberSecurity?</u></h2>
+<font size="3">Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. Also known as information technology (IT) security, cybersecurity measures are designed to combat threats against networked systems and applications, whether those threats originate from inside or outside of an organization.
+</header>
+<section>
+  <nav>
+    <ul><font size="2">
+<li> 
+ <a href="T10CyberTreats.html">Top-10 CyberSecurity Treats</a>
+</li></ul>
+</p>
+<ul><li>
+<a href="CSPrevents.html">How to Prevent Cyber Attacks</a></li></ul>
+  </font>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 style="color:Tomato;"><u>CyberSecurity and Treats</u><h1 ><p ><u></u></p></h1></h1>
+    <p><font size="4" face="times new roman"> CyberSecurity has been a widespread priority since the latter half of the ‘90s, when the dot-com boom brought the world online.
+</p> 
+<p>
+   In any organization depends upon its networks and equipment to run flawlessly. Any disruption of the technology even for short periods of time is costly, and this factor makes it more important than ever for the teams to understand current cyber security threats. 
+</p>
+<p> Let’s take a look at <a href="T10CyberTreats.html"><b>Top 10 CyberSecurity threats </b></a>the organisations facing these days.</p>
+  </article>
+</section>
+
+<footer>
+  <p><align="center"><a href="T10CyberTreats.html"><b>Next</b></a></p>
+</footer>
+
+</body>
+</html>
